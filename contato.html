@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angels Dog - Clinica Veterinária</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        form {
+            display: block;
+            font-size: 20px;
+	        margin: 0 0 10px;
+        }
+
+        form input {
+            display: block;
+            margin: 0 0 20px;
+            padding: 10px 25px;
+            width: 50%;
+        }
+
+        form textarea {
+            display: block;
+            margin: 0 0 20px;
+            padding: 10px 25px;
+            width: 50%;
+        }
+
+        .footer {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre-a-clinica.html">Sobre a Clinica</a></li>
+                <li><a href="horarios.html">Horários</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="imagens/imagem-topo.jpg" alt="Imagem Topo Sobre Animais" height="100%" width="100%">
+                <!-- Aqui vai o seu header -->
+                
+            </div>
+    
+            <div class="content">
+                <H1>Nossos Contatos</H1>
+                <p> Rua Raulindo Paiva, 20 - Alto do Ipiranga - Mogi das Cruzes - SP</p>
+                <p>(11) 4727-4727 | WhatsApp(11) 94727-4727 </p>
+                <p>ATENDIMENTO AO PÚBLICO</p>
+                <ul>
+                    <li>Segunda a Sexta, das 7h às 22h</li>
+                    <li>Sábado, das 8h às 20h</li>
+                    <li>Domingo e feriados , das 9h às 18h</li>
+                </ul>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9004721975903!2d-46.20340258447617!3d-23.536081866545505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd87196f85c89%3A0xce7c4a75809925fd!2sR.%20Raulindo%20Paiva%2C%2020%20-%20Alto%20Ipiranga%2C%20Mogi%20das%20Cruzes%20-%20SP%2C%2008730-320!5e0!3m2!1spt-BR!2sbr!4v1673899921189!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <form name="formulario" method="GET" action="#" autocomplete="off" onsubmit="alert('Agradecemos o seu contato!')">
+                    <h3> Solicite um contato conosco.</h3><br>
+                    <label>Nome: </label><input type="text" name="name" required placeholder="Seu nome"/><br>
+                    <label>Email:</label> <input type="email" name="email" required placeholder="seuemail@dominio.com"/><br>
+                    <label>Telefone: </label><input type="number" name="telefone" required placeholder="(11)99999-9999)"/><br>
+                    <label>Mensagem: </label>
+                    <textarea name="mensagem" rows="5" cols="20" required placeholder="Sua mensagem"></textarea><br>
+                    <button type="submit">Enviar</button> <button type="reset">Limpar Campos</button>
+                </form>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <p> Rua Raulindo Paiva, 20 - Alto do Ipiranga - Mogi das Cruzes - SP</p>
+                <p>(11) 4727-4727 | WhatsApp(11) 94727-4727 </p>
+                <p>ATENDIMENTO AO PÚBLICO</p>
+                <p>Segunda a Sexta, das 7h às 22h
+                    Sábado, das 8h às 20h
+                    Domingo e feriados , das 9h às 18h </p>
+                <p><b><u>Emergências 24h</u></b></p>
+                <p class="copyright">2023 © Golden Dog - Todos os direitos Reservados</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
